@@ -21,6 +21,7 @@ app.get('/', async (req, res) => {
   })
 })
 
+// added post method
 app.post('/', async (req, res) => {
   try {
     const prompt = req.body.prompt;
